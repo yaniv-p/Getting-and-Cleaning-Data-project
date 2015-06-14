@@ -9,7 +9,7 @@ colname<-colname_df[,2]                 # copy the columns names data into a vec
 
 #
 # Build the train data
-# no need to tead the Inertial data since it doesnt contains data mean or str that is needed per step 2
+# no need to read the Inertial data since it doesnt contains data on mean or str that is needed per step 2
 #
 
 # read the train data into a data frame
