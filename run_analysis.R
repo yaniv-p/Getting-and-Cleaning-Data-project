@@ -81,7 +81,7 @@ ans_df<-select(all_data,matches("-std()|-mean()|ActivityName|SubjectID"))
 ans_grouped<-group_by(ans_df,ActivityName,SubjectID) %>% summarise_each(funs(mean))
 
 # Convert to long form of Tify data set.
-tidy <-gather(ans_grouped,MeasreName,avg,-one_of("ActivityName","SubjectID"))
+tidy <-gather(ans_grouped,MeasureName,avg,-one_of("ActivityName","SubjectID"))
 
 #Write the tidy data set to a file.
 write.table(tidy,file = "tidy.txt",row.name=FALSE)
