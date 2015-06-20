@@ -142,3 +142,5 @@ Below is the MeasureName list for the Mean and Standard deviation values of the 
 
 avg     Len: 21 bytes (number)
         a number between -1 and 1 that is the average of each MasureName for each activity and each subject.
+        
+        
