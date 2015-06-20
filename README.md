@@ -25,7 +25,7 @@ For building the train data (and the same for the test data
 
 At this point we did step 1 and 4 of the assignment.
 
- 10.  Now we will read the Activity legend data. we will name the columns "ActivityID" and "ActivityName.
+ 10. Now we will read the Activity legend data. we will name the columns "ActivityID" and "ActivityName.
 We will set Activity ID column to "ActivityID" , same as the train+test column, beacuse this column will be use for the merge function later in order to do step 3
 
  11.  Merge the Activity name to the data frame (step 3), Merge will be based on ActivityID column that exits in the two data frames, and wll bring the ActivityName 
