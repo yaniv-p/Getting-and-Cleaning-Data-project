@@ -12,8 +12,8 @@ Main logic is:
 
 For building the train data (and the same for the test data
  1. read the train data into a data frame
- 2. read thetrain  activities(1..6) data into a data frame
- 3, append the activities data to the train data frame using cbind
+ 2. read the train  activities(1..6) data into a data frame
+ 3. append the activities data to the train data frame using cbind
  4. read the train ID's(1..30) data into a data frame
  5. append the ID's data to the train data frame using cbind
  6. Set the names of the variables of the data frame (step 4) 
