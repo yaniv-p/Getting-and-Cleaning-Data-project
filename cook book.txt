@@ -56,7 +56,7 @@ Notes:
 - Features are normalized and bounded within [-1,1].
 
 
-Below is the MeasureName list for the Mean and Standard deviation values of the signals -  
+Below is the MeasureName list for the Mean and Standard deviation values of the signals described above -  
         tBodyAcc-mean()-X
         tBodyAcc-mean()-Y
         tBodyAcc-mean()-Z
@@ -142,7 +142,3 @@ Below is the MeasureName list for the Mean and Standard deviation values of the 
 
 avg     Len: 21 bytes (number)
         a number between -1 and 1 that is the average of each MasureName for each activity and each subject.
-
-
-
-
